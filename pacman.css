@@ -55,41 +55,9 @@ body {
     width: 20px;
     height: 20px;
     position: absolute;
-    top: 490px;
+    top: 493px;
     left: 190px;
     z-index: 10;
-}
-
-.container .field-wrapper .obstacles {
-    width: 100%;
-    height: 100%;
-    display: block;
-    position: relative
-}
-
-.container .field-wrapper .obstacles .obstacle {
-    display: block;
-    position: absolute;
-    z-index: 10;
-}
-
-.container .field-wrapper .obstacles .obst-0{
-    width: 80px;
-    height: 40px;
-    border-bottom: 10px solid #0000FF;
-    border-right: 5px solid #0000FF; 
-    top: 524px;
-    left: 28px;
-    
-}
-
-.container .field-wrapper .obstacles .obst-1{
-    width: 40px;
-    height: 40px;
-    top: 524px;
-    left: 113px;
-    border-bottom: 10px solid #0000FF;
-    border-left: 5px solid #0000FF;
 }
 
 .container .score-wrapper{

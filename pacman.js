@@ -52,7 +52,7 @@ function lifeCicle() {
             $(".player").css("top", topOfset + "px")  
         }
 
-     }, 50);
+     }, 500);
 
      playerMovment();
 };
@@ -78,7 +78,7 @@ function playerMovment() {
     $(".player-controle").on("keypress", function(event){
         console.log("key is pressed");
         $(this).val("");
-        switch(event.originalEvent.key){
+        switch(event.originalEvent.key.toLowerCase()){
             case "a":
                 horisontalDirection = -1;
                 horisontal = true;
